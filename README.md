@@ -1,2 +1,6 @@
 # zipkin-service
-Service to send trace logs to Zipkin server which will track the API requests. Used Micrometer tracing as Spring Boot 3 don't support spring sleuth as it is migrated.
+Service to trace the requests with trace id and span id in Zipkin. 
+
+Spring cloud sleuth doesn't support spring boot 3.x onwards.
+
+Used micrometer tracing for tracing the requests in Zipkin.
