@@ -29,7 +29,7 @@ public class Controller {
 		
 	  LOG.info("Request at {} for request /demoPath2 ");
 	  ResponseEntity<String> res = restTemplate.getForEntity("http://localhost:8001/home", String.class);
-	  return ResponseEntity.ok("response from /demoPath1 ===> " + res.getBody());
+	  return ResponseEntity.ok("response from /demoPath2 ===> " + res.getBody());
 	}
 
 }
